@@ -2,8 +2,6 @@ public class Filme implements Indicavel {
     private boolean elegivel;
     private int numeroDeIndicacoes;
 
-    // Construtor, getters e setters
-
     @Override
     public boolean isElegivel() {
         return elegivel;
